@@ -32,7 +32,7 @@ function AtualizarDadosTela(dados) {
 
   document.querySelector(".temperatura").innerHTML = `${Math.round(
     dados.main.temp
-  )}ºC`;
+  )}°C`;
   document.getElementById("descricao").innerHTML = dados.weather[0].description;
   document.getElementById(
     "humidade"
